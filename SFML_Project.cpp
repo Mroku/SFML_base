@@ -11,9 +11,10 @@
 
 int main(){
 
-	sf::RenderWindow window{ {800,600}, "abcd" };
+	sf::RenderWindow window{ {600,400}, "abcd" };
 	while (window.isOpen()) {
 		window.clear(sf::Color::Red);
+		
 		window.display();
 	}
 }
